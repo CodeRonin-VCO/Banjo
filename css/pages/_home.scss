@@ -1,0 +1,88 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+img {
+  max-width:100%;
+}
+.wrapper {
+  width: 90%;
+  margin:50px auto;
+}
+.logo {
+  width: 500px;
+  margin:0 auto;
+  display: block
+}
+.fa-heart {
+  color:#FF667D;
+  font-size: 100px;
+  position: absolute;
+  top:15px;
+  left:15px;
+  transform:rotate(-45deg)
+}
+.circle {
+  background:#55F8EB;
+  border-radius:50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom:15px;
+  right:15px;
+}
+strong {
+  margin-bottom: 15px;
+  display: inline-block;
+  font-size: 1.5rem;
+  color:#FF667D;
+}
+p {
+  font-size: 0.85rem;
+  line-height:1.5rem;
+  max-width:1000px;
+  margin:0 auto;
+}
+#app {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:50px;
+  margin-top: 50px;
+}
+h2 {
+  text-align: center;
+}
+.users-pics {
+  display: flex;
+  flex-wrap:wrap;
+  gap:5px;
+  justify-content:center;
+  img {
+    border-radius:10px;
+    width: 100px;
+    cursor:pointer;
+    transition:.05s all ease-in-out;
+    &:hover, .active {
+      transform:scale(1.2);
+
+    }
+  }
+}
+.user-details {
+  text-align: center;
+  img {
+    border-radius:15px 0 15px 0;
+  }
+  h2 {
+    font-size: 50px;
+    margin: 0;
+  }
+  .age {
+    font-size: 40px;
+    
+  }
+  .contact {
+    color:#FF667D;
+    margin-bottom: 15px;
+    display: block;
+  }
+}
